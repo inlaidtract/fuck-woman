@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<meta charset="UTF-8">
+		<title>EXLUSIVE FOR MY PRETTYPATOTIE</title>
+		<link rel="stylesheet" type="text/css" href="./css/format.css">
+	</head>
+
+	<body style="margin:0px">
+		<canvas></canvas>
+		<div id="imgTxt">
+			<span id="Txt"></span> <br />
+			<span id="tmp"></span>
+			<img id="img" src="">
+		</div>
+		<div id="heartTxt">
+			<span id="clickMe">Click!</span>
+			<div id="heart">
+				<button id="button" onclick="play()"></button>
+			</div>
+		</div>
+		<div id="content">
+			<h2 id="together">We have been together</h2>
+			<div id="timer">
+				<b id="d"></b> Days 
+				<b id="h"></b> Hours
+				<b id="m"></b> Minutes
+				<b id="s"></b> Seconds
+			</div>
+		</div>
+
+    	<div id = "typeDiv">
+        	<span id="txt1"></span> <br/>
+        	<span id="txt2"></span>
+    	</div>		
+
+		<script >
+			var ok = 0;
+			var flag = 1;
+			var myImage = document.getElementById("img");
+			var myTxt = document.getElementById("Txt");
+			var imageArray = ["pic/pic1.jpg", "pic/pic2.jpg", "pic/pic3.jpg", "pic/pic4.jpg", "pic/pic5.jpg", "pic/pic6.jpg", 
+			"pic/pic7.jpg", "pic/pic8.jpg", "pic/pic9.jpg", "pic/pic10.jpg"];
+			var imageIndex = 0;
+			var txtArray = ["Our first picture together after a whole year apart. It's incredible how time and distance couldn't change how special this moment feels", "This is us when we took a picture with Pak Ismail. I didn't expect Vegalistik to post it on ig", "This is us when we took a picture at GO. The reason I chose to go there was simply because I wanted to be closer to you, to share a moment with you, and to cherish every little second we're together.",
+			 "This is your first photo, and I'm so glad to see it because you're incredibly beautiful, no matter where you are", "This is you when you were a kid. You look so adorable, and if I were there, I would’ve just wanted to yell out how cute you are", "This is us when my friend paparazzi'd us because they said we looked cute together", "this is u also when u were at elementary school so cutee",
+			 "This is you wearing the jersey I hate the most, but it's okay I still think you look great in it", "This is you when I gave you flowers, and I'm so glad to see how happy and surprised you were by it"];
+			 var len = imageArray.length;
+			var t = 0;
+		</script>
+		
+		<script type="text/javascript" src="./js/stars.js"></script>
+		<script type="text/javascript" src="./js/typeWriter.js"></script>
+		<script type="text/javascript" src="./js/date.js"></script>
+		<script type="text/javascript" src="./js/playImg.js"></script>
+	</body>
+</html>
